@@ -8,8 +8,29 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         background-color: ${({ theme }) => theme.bgs.main};
-        height: 100vh;
+        height: 200vh;
         padding: 20px 60px;
+    }
+    button{
+        border: none;
+        border-radius: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8pt;
+        font-weight: bold;
+        height: 30px;
+        padding: 0 2px;
+        width: 90px;
+    }
+    ::-webkit-scrollbar{
+        width: 15px;
+    }
+    ::-webkit-scrollbar-track{
+        background: ${({ theme }) => theme.colors.violet};
+        border-radius: 30px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: ${({ theme }) => theme.colors.black};
+        border-radius: 30px;
     }
 `
 
