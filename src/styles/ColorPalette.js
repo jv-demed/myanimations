@@ -1,17 +1,44 @@
 const ColorPalette = {
     bgs: {
-        main: '#181616' //gray
+        main: '#181616'
     },
     colors: {
-        black: 'black',
-        cyan: 'cyan',
-        tomato: 'tomato',
         violet: 'blueviolet',
-        white: 'white',
     },
-    myHigh: {
-        primary: '#f010f0', //pink
-        secondary: 'gold' //gold
+    basics: {
+        black: '#000',
+        white: '#fff'
+    },
+    blue: {
+        i200: '#00ffff', //cyan
+        i300: '#4bc8eb',
+        i500: '#0000ff', //blue
+    },
+    green: {
+        i400: '#16f372',
+        i500: '#00ff00' //green
+    },
+    pink: {
+        i500: '#ffc0cb', //pink
+        i600: '#ff96ad',
+        i800: '#f010f0'
+    },
+    red: {
+        i200: '#ff6347', //tomato
+        i400: '#f13a0f',
+        i500: '#FF0000' //red
+    },
+    violet: {
+        i300: '#8a2be2', //blue violet
+        i500: '#7f00ff' //violet
+    },
+    yellow: {
+        i500: '#FFFF00', //yellow
+        i700: '#FFD700' //gold
+    },
+    zinc: {
+        i500: '#bac4c8', //zinc
+        i800: '#162534'
     }
 }
 

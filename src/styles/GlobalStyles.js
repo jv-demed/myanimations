@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: ${({ theme }) => theme.bgs.main};
         height: 200vh;
-        padding: 20px 60px;
+        padding: 20px 120px;
     }
     button{
         border: none;
@@ -25,11 +25,11 @@ const GlobalStyle = createGlobalStyle`
         width: 15px;
     }
     ::-webkit-scrollbar-track{
-        background: ${({ theme }) => theme.colors.violet};
+        background: ${({ theme }) => theme.violet.i300};
         border-radius: 30px;
     }
     ::-webkit-scrollbar-thumb{
-        background: ${({ theme }) => theme.colors.black};
+        background: ${({ theme }) => theme.basics.black};
         border-radius: 30px;
     }
 `

@@ -21,8 +21,8 @@ const MyHighlightStyled = styled.div`
     }
     background-image: linear-gradient(
         45deg, 
-        ${({ theme }) => theme.myHigh.primary}, 
-        ${({ theme }) => theme.myHigh.secondary}
+        ${({ theme }) => theme.pink.i800}, 
+        ${({ theme }) => theme.yellow.i700}
     );
     height: 80px;
     padding: 5px;
