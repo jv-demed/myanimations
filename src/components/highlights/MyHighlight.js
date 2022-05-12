@@ -24,10 +24,10 @@ const MyHighlightStyled = styled.div`
         ${({ theme }) => theme.pink.i800}, 
         ${({ theme }) => theme.yellow.i700}
     );
+    animation: rotate 0.5s linear infinite;
     height: 80px;
     padding: 5px;
     width: 80px;
-    animation: rotate 0.5s linear infinite;
     img{
         height: 100%;
         width: 100%;

@@ -7,9 +7,8 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
     body{
-        background-color: ${({ theme }) => theme.bgs.main};
+        background-color: ${({ theme }) => theme.zinc.i800};
         height: 200vh;
-        padding: 20px 120px;
     }
     button{
         border: none;

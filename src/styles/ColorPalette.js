@@ -1,10 +1,4 @@
 const ColorPalette = {
-    bgs: {
-        main: '#181616'
-    },
-    colors: {
-        violet: 'blueviolet',
-    },
     basics: {
         black: '#000',
         white: '#fff'
@@ -14,7 +8,13 @@ const ColorPalette = {
         i300: '#4bc8eb',
         i500: '#0000ff', //blue
     },
+    dark: {
+        i500: '#808080', //gray
+        i700: '#353535',
+        i900: '#181616'
+    },
     green: {
+        i200: '#22ffc0',
         i400: '#16f372',
         i500: '#00ff00' //green
     },

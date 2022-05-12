@@ -14,6 +14,9 @@ const Classes = createGlobalStyle`
     .circleBorder{
         border-radius: 100%;
     }
+    .container{
+        padding: 20px 120px;
+    }
     .typography{
         color: ${({ theme }) => theme.basics.white};
         font-family: Verdana, Geneva, Tahoma, sans-serif;

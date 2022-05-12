@@ -13,7 +13,7 @@ const HomeStyled = styled.main`
 
 export default function Home(){
     return(
-        <HomeStyled className='typography'>
+        <HomeStyled className='container typography'>
             <Highlights />
             <Loadings />
             <Buttons />
