@@ -1,4 +1,5 @@
 import MyHighlight from "./MyHighlight";
+import PulseCircle from './PulseCircle';
 
 export function Highlights(){
     return(
@@ -6,6 +7,7 @@ export function Highlights(){
             <h2>Highlights</h2>
             <div>
                 <MyHighlight />
+                <PulseCircle />
             </div>
         </div>
     )

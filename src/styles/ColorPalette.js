@@ -23,6 +23,9 @@ const ColorPalette = {
         i600: '#ff96ad',
         i800: '#f010f0'
     },
+    purple: {
+        i500: '#800080' //purple
+    },
     red: {
         i200: '#ff6347', //tomato
         i400: '#f13a0f',
